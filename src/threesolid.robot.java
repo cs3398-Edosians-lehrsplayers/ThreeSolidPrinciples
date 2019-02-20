@@ -13,7 +13,7 @@ import java.io.*;
 
 import threesolid.IWorker;
 
-class Robot implements IWorkable{
+class Robot extends BaseWorker implements IReboot{
 	public void work() {
 		// ....working
 	}
