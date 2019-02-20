@@ -15,10 +15,10 @@ import threesolid.IWorker;
 
 class Worker extends BaseWorker implements Ieat, Isick{
 	public void work() {
-		// ....working
+		System.out.format("working...");
 	}
 
 	public void eat() {
-		//.... eating in launch break
+		System.out.format("eating...");
 	}
 }
