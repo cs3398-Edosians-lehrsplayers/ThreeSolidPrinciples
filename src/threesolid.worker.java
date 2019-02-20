@@ -13,7 +13,7 @@ import java.io.*;
 
 import threesolid.IWorker;
 
-class Worker implements IWorker{
+class Worker extends BaseWorker implements Ieat, Isick{
 	public void work() {
 		// ....working
 	}

@@ -13,9 +13,10 @@ import java.io.*;
 
 import threesolid.IWorker;
 
-class SuperWorker implements IWorker{
+class SuperWorker extends BaseWorker implements Ieat, Isick{
 	public void work() {
 		//.... working much more
+		system.out.format("Working much more ... \n");
 	}
 
 	public void eat() {
