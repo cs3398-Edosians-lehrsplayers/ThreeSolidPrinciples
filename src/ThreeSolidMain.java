@@ -22,21 +22,21 @@ public class ThreeSolidMain
       try 
       {  
          System.out.format("\nManagement hiring new TempWorker.. \n"); 
-         regManager.setWorker(new TempWorker());
+         tsManager.setWorker(new TempWorker());
          System.out.format("Managing TempWorker.. \n"); 
-         regManager.manage();
+         tsManager.manage();
 
          System.out.format("\nProduct Management hiring new SuperWorker.. \n"); 
-         prodManager.setWorker(new SuperWorker());
-         prodManager.defineProduct();
+         prodMngr.setWorker(new SuperWorker());
+         prodMngr.defineProduct();
          System.out.format("Managing SuperWorker.. \n"); 
-         prodManager.manage();
+         prodMngr.manage();
 
          System.out.format("\nProject Management hiring new Robot.. \n");
-         projManager.setWorker(new Robot());
-         projManager.scheduleWork();
+         projMngr.setWorker(new Robot());
+         projMngr.scheduleWork();
          System.out.format("Managing Robot.. \n");
-         projManager.manage();
+         projMngr.manage();
       } 
       catch (Exception main_except)
       {
