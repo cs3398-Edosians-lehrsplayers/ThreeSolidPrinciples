@@ -23,3 +23,15 @@ class Manager {
         worker.work();
     }
 }
+
+class ProjectManager extends Manager {
+    public void scheduleWork() {
+        System.out.format("Do some work for me ... \n");
+    }
+}
+
+class ProductManager extends Manager {
+    public void defineProduct() {
+        System.out.format("Here's a product, take it ... \n");
+    }
+}
