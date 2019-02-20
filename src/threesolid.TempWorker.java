@@ -1,5 +1,5 @@
 /*
-The robot class follows the open/close principle as it can be openly extended by
+The tempWorker class follows the open/close principle as it can be openly extended by
 creating a new interface with a new function without modifying the class itself. The
 single responsibility principle does not really apply as all of the classes require
 the same functions
@@ -13,8 +13,14 @@ import java.io.*;
 
 import threesolid.IWorker;
 
-class Robot extends BaseWorker implements IReboot{
+class TempWorker extends BaseWorker implements Ieat, Isick{
+	@Override
 	public void work() {
-		// ....working
+		//.... working much more
+		system.out.format("Working much more ... \n");
+	}
+
+	public void eat() {
+		//.... eating in launch break
 	}
 }
