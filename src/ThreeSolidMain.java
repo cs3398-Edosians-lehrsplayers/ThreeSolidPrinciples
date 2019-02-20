@@ -10,7 +10,9 @@ import java.io.*;
 public class ThreeSolidMain
 {   
 
-	public static Manager tsManager = new Manager();
+   public static Manager tsManager = new Manager();
+   public static ProjectManager projMngr = new ProjectManager();
+   public static ProductManager prodMngr = new ProductManager();
 
    // The entry main() method
    public static void main(String[] args) 
@@ -25,7 +27,7 @@ public class ThreeSolidMain
          main_except.printStackTrace();
       }
 
-            try 
+      try 
       {
          System.out.format("Stopping ... \n");               
       } 
