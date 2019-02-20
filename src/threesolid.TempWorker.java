@@ -11,8 +11,11 @@ import java.awt.*;        // Using AWT container and component classes
 import java.awt.event.*;  // Using AWT event classes and listener interfaces
 import java.io.*;
 
+<<<<<<< HEAD
 //import threesolid.IWorker;
 
+=======
+>>>>>>> 82e91f576065089d1c53484b9d43f32a1d50d146
 class TempWorker extends BaseWorker implements Ieat, Isick{
 	@Override
 	public void work() {

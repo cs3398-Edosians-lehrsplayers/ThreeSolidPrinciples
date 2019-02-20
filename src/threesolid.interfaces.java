@@ -10,18 +10,6 @@ import java.awt.*;        // Using AWT container and component classes
 import java.awt.event.*;  // Using AWT event classes and listener interfaces
 import java.io.*;
 
-
-interface IWorker extends IFeedable, IWorkable {
-}
-
-interface IWorkable {
-	public void work();
-}
-
-interface IFeedable{
-	public void eat();
-}
-
 interface Ieat {
     public void eat();
 }

@@ -10,12 +10,12 @@ import java.awt.event.*;  // Using AWT event classes and listener interfaces
 import java.io.*;
 
 class Manager {
-    IWorker worker;
+    BaseWorker worker;
 
     public void Manager() {
 
     }
-    public void setWorker(IWorker w) {
+    public void setWorker(BaseWorker w) {
         worker=w;
     }
 
