@@ -22,14 +22,14 @@ interface IFeedable{
 	public void eat();
 }
 
-interface IEat {
+interface Ieat {
     public void eat();
 }
 
-interface ISick {
+interface Isick {
     public void sick();
 }
 
-interface IReboot {
+interface Ireboot {
     public void reboot();
 }
