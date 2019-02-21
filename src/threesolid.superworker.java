@@ -14,7 +14,7 @@ import java.io.*;
 class SuperWorker extends BaseWorker implements Ieat, Isick{
 	public void work() {
 		//.... working much more
-		system.out.format("Working much more ... \n");
+		System.out.format("Working much more ... \n");
 	}
 
 	public void eat() {
