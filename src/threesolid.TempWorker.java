@@ -14,13 +14,19 @@ import java.io.*;
 //import threesolid.IWorker;
 
 class TempWorker extends BaseWorker implements Ieat, Isick{
+
 	@Override
 	public void work() {
 		//.... working much more
 		System.out.format("Working much more ... \n");
 	}
-
+	@Override
 	public void eat() {
 		//.... eating in launch break
+	}
+
+	@Override
+	public void sick(){
+		System.out.println("im sicky . . ");
 	}
 }

@@ -12,11 +12,16 @@ import java.awt.event.*;  // Using AWT event classes and listener interfaces
 import java.io.*;
 
 class Worker extends BaseWorker implements Ieat, Isick{
+	@Override
 	public void work() {
 		System.out.format("working...");
 	}
-
+	@Override
 	public void eat() {
 		System.out.format("eating...");
+	}
+	@Override
+	public void sick() {
+		System.out.format("sicky...");
 	}
 }

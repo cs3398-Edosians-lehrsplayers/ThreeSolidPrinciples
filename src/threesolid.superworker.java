@@ -12,12 +12,17 @@ import java.awt.event.*;  // Using AWT event classes and listener interfaces
 import java.io.*;
 
 class SuperWorker extends BaseWorker implements Ieat, Isick{
+	@Override
 	public void work() {
 		//.... working much more
 		System.out.format("Working much more ... \n");
 	}
-
+	@Override
 	public void eat() {
 		//.... eating in launch break
+	}
+	@Override
+	public void sick() {
+		System.out.format("Sicky...");
 	}
 }
